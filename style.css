@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&family=Roboto+Slab:wght@500&family=Yanone+Kaffeesatz&display=swap');
+
+body{
+	background-color: #f1f1f1;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+}
+h1{
+	font-size: 50px;
+	margin: 0;
+}
+.first{
+	display: flex;
+}
+.text{
+	margin-left: 40px;
+	margin-bottom: 0px;
+}
+.first img{
+	width: 150px;
+	border-radius: 25px;
+	box-shadow: 4px 4px 10px rgba(0,0,0, 50);
+}
+.first p{
+	font-weight: bold;
+	color: #494949;
+	text-align: center;
+}
+.first h2{
+	font-size: 30px;
+	font-style: italic;
+	text-align: center;
+}
+#h2name{
+	font-size: 40px;
+}
+.cont{
+	max-width: 800px;
+	margin: auto;
+	background-color:#ececec;
+	padding: 50px;
+	border-radius: 50px;
+	box-shadow: 4px 4px 10px rgba(0,0,0, 50);
+}
+hr{
+	box-shadow: 4px 4px 8px rgba(0,0,0, 15);
+}
+a{
+	color: rgb(95, 95, 95);
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	color: black;
+	font-size: 20px;
+}
+a:active{
+	color: blue;
+	font-size: 18px;
+}
+.social{
+	padding: 10px 20px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	box-shadow: 1px 1px 1px rgba(0,0,0, 10);
+}
+.s-yellow{
+	background-color: #fff9dc;
+}
+.s-green{
+	background-color: #e5ffe7;
+
+}
+.s-red{
+	background-color: #ffe5e5;
+}
+.work{
+	width: 100%;
+	text-align: center;
+}
+.contact h2{
+	text-align: center;
+}
+.form-group label{
+	display: block;
+}
+.form-group input, .form-group textarea{
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	padding: 15px 0 10px;
+	outline: none;
+	font-family: inherit;
+	font-size: 19px;
+	background-color: transparent;
+	color: black;
+}
+.row{
+	display: flex;
+	margin-bottom: 20px;
+}
+.row > .form-group{
+	width: 50%;
+	margin-right: 20px;
+}
+.mysoc{
+	box-shadow: none;
+}
+.btn input{
+	border-radius: 10px;
+	color: rgb(255, 255, 255);
+	border: none;
+	background-color: black;
+	padding: 10px 15px;
+	font-family: inherit;
+	cursor: pointer;
+}
+.btn:hover{
+	opacity: 0.9;
+}
+
+@media (max-width: 700px){
+	.first{
+		text-align: center;
+		display: block;
+	}
+}
